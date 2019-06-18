@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+    <fragment
+        android:id="@+id/sceneform_ux_fragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/bear"
+                android:layout_width="100dp"
+                android:layout_height="155dp"
+
+                android:src="@drawable/parts" />
+
+            <ImageView
+                android:id="@+id/cat"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/enginesmall" />
+
+            <ImageView
+                android:id="@+id/piston"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/vray_piston" />
+
+            <ImageView
+                android:id="@+id/battery"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/battery" />
+            <ImageView
+                android:id="@+id/block"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/block" />
+            <ImageView
+                android:id="@+id/orginalpiston"
+                android:layout_width="100dp"
+                android:layout_height="155dp"
+
+                android:src="@drawable/orginalpiston" />
+
+        </LinearLayout>
+
+
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="   Engine_Parts          Small Engine       Piston        Battery  Block" />
+</FrameLayout>

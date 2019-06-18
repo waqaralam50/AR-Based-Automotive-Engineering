@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/adil"
+    tools:context=".Mainhome">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="136dp"
+        app:srcCompat="@drawable/ae"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/signout"
+        android:layout_width="277dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="96dp"
+        android:background="@drawable/bu"
+        android:text="Signout"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <Button
+        android:id="@+id/con"
+        android:layout_width="277dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="173dp"
+        android:background="@drawable/bu"
+        android:text="Contact US"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <Button
+        android:id="@+id/engine"
+        android:layout_width="277dp"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="316dp"
+        android:background="@drawable/bu"
+        android:text="Engine Detail Book"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="381dp" />
+
+    <Button
+        android:id="@+id/help"
+        android:layout_width="277dp"
+        android:layout_height="61dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="261dp"
+        android:background="@drawable/bu"
+        android:text="Help"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="301dp" />
+
+    <Button
+        android:id="@+id/ar"
+        android:layout_width="277dp"
+        android:layout_height="61dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="232dp"
+        android:background="@drawable/bu"
+        android:text="AR Models"
+        android:textSize="20dp"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="220dp" />
+</RelativeLayout>

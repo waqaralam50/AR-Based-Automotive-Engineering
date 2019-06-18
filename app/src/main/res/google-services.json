@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "37188419036",
+    "firebase_url": "https://arae-3f265.firebaseio.com",
+    "project_id": "arae-3f265",
+    "storage_bucket": "arae-3f265.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:37188419036:android:5383007176e86697",
+        "android_client_info": {
+          "package_name": "com.example.adilshaikh.arbasedautomativeengineering"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "37188419036-khrh20mrp501nou8nun69b729kuivfn9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3dhf0MjO2SR4DB9kXUWRP5t52Nsq6dSE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "37188419036-khrh20mrp501nou8nun69b729kuivfn9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
